@@ -42,8 +42,8 @@ while steps < 50:
 	
 	steps = steps + 1
 		
-	for h_turtle is horiz_turtles
-		for v_turtle is vert_turtles
+	for h_turtle in horiz_turtles:
+		for v_turtle in vert_turtles:
 
 			v_turtle.forward(10)
 			h_turtle.forward(10)
